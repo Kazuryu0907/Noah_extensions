@@ -19,7 +19,7 @@ const manifest = defineManifest({
         default_popup: "scripts/options/index.html",
         default_icon: "icons/128.png",
     },
-    permissions: ["tabs"],
+    // permissions: ["tabs"],
     content_scripts: [
         {
             js: ["scripts/content.ts"],
